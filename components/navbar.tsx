@@ -35,15 +35,21 @@ export function Navbar() {
       )}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
-        <a href="#home" className="flex items-center gap-3" aria-label="HIGHVIEW HOLDINGS LTD home">
-          <Image
-            src="/highview-logo.svg"
-            alt="HIGHVIEW HOLDINGS LTD"
-            width={150}
-            height={40}
-            className="h-9 w-auto rounded"
-            priority
-          />
+        <a href="#home" aria-label="HIGHVIEW HOLDINGS LTD home">
+          <div className="flex items-center gap-3">
+            <Image
+              src="/highview-logo.svg"
+              alt="HIGHVIEW HOLDINGS LTD"
+              width={150}
+              height={40}
+              className="h-9 w-auto shrink-0 rounded"
+              priority
+            />
+            <div className="leading-tight">
+              <span className="block font-heading text-sm font-bold uppercase tracking-[0.14em] text-foreground">HIGHVIEW</span>
+              <span className="block text-[10px] font-medium uppercase tracking-[0.28em] text-muted-foreground">Holdings Ltd</span>
+            </div>
+          </div>
         </a>
 
         <div className="hidden items-center gap-8 lg:flex">
