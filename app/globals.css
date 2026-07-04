@@ -1,0 +1,102 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: var(--font-manrope), 'Manrope', ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-manrope), 'Manrope', ui-sans-serif, system-ui, sans-serif;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-navy-950: #061d3a;
+  --color-navy-900: #0b2f5b;
+  --color-navy-800: #0e3d73;
+  --color-navy-700: #114c8d;
+  --color-blue-accent: #3a8dff;
+
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+}
+
+:root {
+  color-scheme: dark;
+  /* HIGHVIEW navy theme */
+  --background: #0b2f5b;
+  --foreground: #f4f8ff;
+  --card: #0e3d73;
+  --card-foreground: #f4f8ff;
+  --popover: #0e3d73;
+  --popover-foreground: #f4f8ff;
+  --primary: #ffffff;
+  --primary-foreground: #0b2f5b;
+  --secondary: #114c8d;
+  --secondary-foreground: #f4f8ff;
+  --muted: #114c8d;
+  --muted-foreground: #a9c2e6;
+  --accent: #3a8dff;
+  --accent-foreground: #ffffff;
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: rgba(147, 183, 235, 0.16);
+  --input: rgba(147, 183, 235, 0.2);
+  --ring: #3a8dff;
+  --radius: 0.75rem;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  }
+}
+
+@layer utilities {
+  .bg-navy-gradient {
+    background:
+      radial-gradient(1200px 600px at 85% -10%, rgba(58, 141, 255, 0.18), transparent 55%),
+      radial-gradient(900px 500px at 0% 20%, rgba(17, 76, 141, 0.35), transparent 60%),
+      linear-gradient(180deg, #0b2f5b 0%, #061d3a 100%);
+  }
+  .bg-navy-panel {
+    background: linear-gradient(160deg, rgba(17, 76, 141, 0.55) 0%, rgba(11, 47, 91, 0.65) 100%);
+  }
+  .glass-card {
+    background: linear-gradient(160deg, rgba(24, 71, 128, 0.55) 0%, rgba(11, 47, 91, 0.4) 100%);
+    backdrop-filter: blur(14px);
+    border: 1px solid rgba(147, 183, 235, 0.14);
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+}
