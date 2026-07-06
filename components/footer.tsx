@@ -8,9 +8,9 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-8 lg:px-8">
         <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} HIGHVIEW LTD. All rights reserved.
+            &copy; {new Date().getFullYear()} Highview Holdings Ltd. All rights reserved.
           </p>
-          <p className="text-xs text-muted-foreground">Ras Al Khaimah · Dubai, United Arab Emirates</p>
+          <p className="text-xs text-muted-foreground">Ras Al Khaimah, United Arab Emirates</p>
         </div>
       </div>
     </footer>

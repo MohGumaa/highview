@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { Reveal } from './reveal'
 
 const details = [
-  { label: 'Entity', value: 'HIGHVIEW LTD' },
+  { label: 'Entity', value: 'Highview Holdings Ltd' },
   { label: 'Registered Office', value: 'RAK International Corporate Centre' },
   { label: 'Jurisdiction', value: 'Ras Al Khaimah, UAE' },
   { label: 'Incorporated', value: 'April 19, 2016' },
@@ -20,7 +20,7 @@ export function About() {
             <div className="overflow-hidden rounded-3xl border border-border">
               <Image
                 src="/about-corporate.png"
-                alt="Modern corporate towers representing HIGHVIEW global presence"
+                alt="Modern corporate towers representing Highview Holdings Ltd global presence"
                 width={800}
                 height={900}
                 className="h-full w-full object-cover"
@@ -39,10 +39,10 @@ export function About() {
               About the Company
             </p>
             <h2 className="mt-4 text-balance font-heading text-3xl font-extrabold tracking-tight text-foreground sm:text-4xl">
-              A trusted international holding company built on precision and long-term value
+              A trusted company built on precision and long-term value
             </h2>
             <p className="mt-6 text-pretty leading-relaxed text-muted-foreground">
-              HIGHVIEW LTD is a UAE-based international holding company delivering integrated
+              Highview Holdings Ltd is a UAE-based company delivering integrated
               advisory, technical consulting, and specialist trading services. We partner with
               governments, developers, and enterprises to move complex infrastructure, real estate,
               aviation, and travel projects from concept to delivery.

@@ -51,7 +51,7 @@ export function Hero() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="mt-6 max-w-xl text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg"
           >
-            Highview LTD provides integrated business advisory, technical consulting, and
+            Highview Holdings Ltd provides integrated business advisory, technical consulting, and
             specialist trading solutions across infrastructure, real estate, aviation, and travel.
           </motion.p>
 

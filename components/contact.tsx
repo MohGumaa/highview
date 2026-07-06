@@ -29,7 +29,7 @@ export function Contact() {
               <div className="flex items-center gap-3">
                 <Image
                   src="/highview-logo.svg"
-                  alt="HIGHVIEW LTD"
+                  alt="Highview Holdings Ltd"
                   width={160}
                   height={44}
                   className="h-10 w-auto rounded-xs"
@@ -42,7 +42,7 @@ export function Contact() {
 
               <div className="mt-10 space-y-6">
                 <ContactRow icon={MapPin} label="Registered Office">
-                  P.O. Box 25561, Dubai, United Arab Emirates
+                  RAK International Corporate Centre,<br/>Ras Al Khaimah,<br/>United Arab Emirates.
                 </ContactRow>
                 <ContactRow icon={Mail} label="Email">
                   <a href="mailto:info@highviewholdingsltd.com" className="hover:text-foreground">

@@ -39,7 +39,7 @@ export function Navbar() {
           <div className="flex items-center gap-3">
             <Image
               src="/highview-logo.svg"
-              alt="HIGHVIEW LTD"
+              alt="Highview Holdings Ltd"
               width={150}
               height={40}
               className="h-9 w-auto shrink-0 rounded"
