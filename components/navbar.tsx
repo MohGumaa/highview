@@ -47,7 +47,7 @@ export function Navbar() {
             />
             <div className="leading-tight">
               <span className="block font-heading text-sm font-bold uppercase tracking-[0.14em] text-foreground">HIGHVIEW</span>
-              <span className="block text-[10px] font-medium uppercase tracking-[0.28em] text-muted-foreground">Ltd</span>
+              <span className="block text-[10px] font-medium uppercase tracking-[0.28em] text-muted-foreground">Holdings Ltd</span>
             </div>
           </div>
         </a>
