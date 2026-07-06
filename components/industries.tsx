@@ -10,7 +10,6 @@ const industries = [
   { icon: Plane, title: 'Aviation', desc: 'Operations and technical procurement.' },
   { icon: Compass, title: 'Travel', desc: 'Tourism and hospitality ventures.' },
   { icon: Zap, title: 'Energy', desc: 'Power and energy transition projects.' },
-  { icon: Droplets, title: 'Utilities', desc: 'Water, waste, and essential services.' },
 ]
 
 export function Industries() {

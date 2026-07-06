@@ -29,7 +29,7 @@ export function Contact() {
               <div className="flex items-center gap-3">
                 <Image
                   src="/highview-logo.svg"
-                  alt="HIGHVIEW HOLDINGS LTD"
+                  alt="HIGHVIEW LTD"
                   width={160}
                   height={44}
                   className="h-10 w-auto rounded-xs"
@@ -45,16 +45,13 @@ export function Contact() {
                   P.O. Box 25561, Dubai, United Arab Emirates
                 </ContactRow>
                 <ContactRow icon={Mail} label="Email">
-                  <a href="mailto:highview@gulfco.biz" className="hover:text-foreground">
-                    highview@gulfco.biz
+                  <a href="mailto:info@highviewholdingsltd.com" className="hover:text-foreground">
+                    info@highviewholdingsltd.com
                   </a>
                 </ContactRow>
                 <ContactRow icon={Phone} label="Phone">
-                  <a href="tel:+97143464500" className="block hover:text-foreground">
-                    +971 4 3464500
-                  </a>
-                  <a href="tel:+97143464200" className="block hover:text-foreground">
-                    +971 4 3464200
+                  <a href="tel:+971568085301" className="block hover:text-foreground">
+                    +971 56 808 5301
                   </a>
                 </ContactRow>
               </div>

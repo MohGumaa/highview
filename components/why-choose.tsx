@@ -13,7 +13,7 @@ const features = [
   {
     icon: Cog,
     title: 'Technical Expertise',
-    desc: 'Deep engineering and procurement knowledge across sectors.',
+    desc: 'Deep and procurement knowledge across sectors.',
   },
   {
     icon: Layers,

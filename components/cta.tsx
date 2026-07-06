@@ -20,7 +20,7 @@ export function CTA() {
               Let&apos;s Build Your Next International Project
             </h2>
             <p className="relative mx-auto mt-5 max-w-xl text-pretty leading-relaxed text-muted-foreground">
-              Partner with HIGHVIEW HOLDINGS LTD for advisory and specialist trading that moves
+              Partner with HIGHVIEW LTD for advisory and specialist trading that moves
               ambitious projects forward.
             </p>
             <div className="relative mt-9 flex flex-col justify-center gap-3 sm:flex-row">
